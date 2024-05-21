@@ -4,7 +4,7 @@
             <img src="/assets/img/TESDA-Logo.png" class="w-32 mx-auto">
             <div class="p-2">
                 <p class="text-center">
-                    <NuxtLink to="/user" class="font-bold text-blue-800 text-md">
+                    <NuxtLink to="" class="font-bold text-blue-800 text-md">
                         TESDA TVET Monitoring System
                         <br>
                         Version 4
@@ -13,17 +13,17 @@
             </div>
             <hr>
 
-            <div class="mt-8 p-2 space-y-5">
-                <NuxtLink to="/user" class="flex items-center text-gray-700 text-md text-center">
+            <div class="mt-8 p-2 space-y-2">
+                <NuxtLink to="/user" class="flex items-center text-gray-700 text-md text-center py-2 px-2">
           <Icon name="mdi:view-dashboard" class="mr-2" /> Dashboard
         </NuxtLink>
-        <NuxtLink to="/user/partnerships" class="flex items-center text-gray-700 text-md text-center">
+        <NuxtLink to="/user/partnerships" class="flex items-center text-gray-700 text-md text-center py-2 px-2">
           <Icon name="mdi:handshake" class="mr-2" /> Partnerships
         </NuxtLink>
-        <NuxtLink to="/user/gaa" class="flex items-center text-gray-700 text-md text-center">
+        <NuxtLink to="/user/gaa" class="flex items-center text-gray-700 text-md text-center py-2 px-2">
           <Icon name="mdi:chart-line" class="mr-2" /> GAA Monitoring
         </NuxtLink>
-        <NuxtLink to="/user/tvet" class="flex items-center text-gray-700 text-md text-center">
+        <NuxtLink to="/user/tvet" class="flex items-center text-gray-700 text-md text-center py-2 px-2">
           <Icon name="mdi:company" class="mr-2" /> TVET Partnerships
         </NuxtLink>
 
@@ -46,4 +46,9 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+    .router-link-exact-active {
+        background-color: gray;
+        color: white;
+    }
+</style>
