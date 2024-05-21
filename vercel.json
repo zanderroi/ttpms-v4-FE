@@ -1,0 +1,8 @@
+{
+    "build": {
+      "env": {
+        "COREPACK_ENABLE_STRICT": "0"
+      }
+    }
+  }
+  
