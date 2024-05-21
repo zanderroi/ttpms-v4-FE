@@ -4,9 +4,11 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@pinia/nuxt',
 
   ],
+
   app: {
     head: {
       title: 'TTPMS v4',
